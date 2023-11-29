@@ -1,0 +1,68 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f8fa; /* Cor de fundo similar ao Twitter */
+    color: #14171a; /* Cor do texto */
+}
+
+.container {
+    width: 600px; /* Largura do container centralizado */
+    margin: 0 auto;
+    background-color: #fff; /* Fundo do container */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+header {
+    background-color: #794c8a; /* Cor roxa semelhante */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 10px; /* Cantos arredondados no cabeçalho */
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+textarea {
+    width: calc(100% - 22px); /* Largura do textarea (considerando padding) */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Cantos arredondados */
+    border: 1px solid #ccc; /* Borda */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #794c8a; /* Cor roxa semelhante */
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f3a6d; /* Cor roxa um pouco mais escura ao passar o mouse */
+}
+
+/* Estilos para exibir tweets */
+.tweet {
+    background-color: #fff; /* Cor de fundo do tweet */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.tweet p {
+    margin: 5px 0;
+}
